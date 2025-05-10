@@ -4,3 +4,6 @@ This repository contains some Docker images of Postgres containers with well kno
 In every folder you can run **docker-compose up** and then connect to port 5432 with psql. Password is usually "password".
 
 Your objective is to select flag from table secret_table in database secret_db.
+
+If you observe something is wrong with contrainers - try
+```docker system prune -a```
